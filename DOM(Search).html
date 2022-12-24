@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searc</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+    }
+    p{
+        text-align: center;
+        color: brown;
+        font-weight: bold;
+        font-size: medium;
+    }
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }
+    button{
+        cursor: pointer;
+        color: blue;
+        background-color: antiquewhite;
+        border: 2px solid black;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <p class="para">plz like</p>
+    <p class="para">plz share </p>
+    <p >don't forget to subscribe</p>
+    <h1 id="heading">change the content of h1</h1>
+    <button onclick="changeContent()">click me</button>
+    <script>
+        const changeContent=()=>{
+        document.getElementsById('heading').innerHTML="welcome";
+        }
+    </script>
+</body>
+</html>
